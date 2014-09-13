@@ -20,4 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  shared:
+    lorem: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin vulputate leo nec scelerisque. Phasellus male suada, nunc eu condimentum laoreet, lacus purus suscipit lacus, ut rhoncus sem lectuse eget dui."
+    title: "Learn, Pledge, Challenge!"
+  learn:
+    watch_the_video: "Watch the video"
