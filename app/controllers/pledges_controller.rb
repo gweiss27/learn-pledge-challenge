@@ -14,7 +14,7 @@ class PledgesController < ApplicationController
   end
 
   def show
-    @pledge =  Pledge.find params[:id]
+    @pledge = Pledge.find params[:id]
   end
 
   private

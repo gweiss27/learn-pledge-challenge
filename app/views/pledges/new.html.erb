@@ -5,17 +5,18 @@
     <%= simple_form_for @pledge do |f| %>
       <%= f.input :name, placeholder: 'Jane Micheals' %>
       <%= f.input :email, placeholder: 'jane.michaels@example.com' %>
-      <%= f.input :pledge, placeholder: 'I am going to make a difference by...' %>
-      <%= f.submit 'Pledge', class: 'btn btn-success' %>
+      <%= f.input :pledge, placeholder: t('pledge.i_am_going_to_make_a_difference_by') %>
+      <%= f.submit t('shared.pledge'), class: 'btn btn-success' %>
     <% end %>
   </div>
 
   <div class="col-md-6">
-    <h2>Suggestions</h2>
+    <h2><%= t 'pledge.suggestions' %></h2>
     <ul>
-      <li> Lobby your local politican</li>
-      <li> Use less electricity</li>
-      <li> Car pool </li>
-      <li> Why not pledge some money to a charity ? </li>
+      <li><%= t 'pledge.suggestion_1' %></li>
+      <li><%= t 'pledge.suggestion_2' %></li>
+      <li><%= t 'pledge.suggestion_3' %></li>
+      <li><%= t 'pledge.suggestion_4' %></li>
+    </ul>
   </div>
 </div>
