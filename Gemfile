@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'rails_12factor'
 gem 'sass-rails', '~> 4.0.3'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'simple_form', '~> 3.1.0.rc1', github: 'plataformatec/simple_form', branch: 'master'
 gem 'spring', group: :development
 gem 'turbolinks'
 gem 'twitter-bootstrap-rails'

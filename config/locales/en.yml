@@ -22,6 +22,9 @@
 en:
   shared:
     lorem: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin vulputate leo nec scelerisque. Phasellus male suada, nunc eu condimentum laoreet, lacus purus suscipit lacus, ut rhoncus sem lectuse eget dui."
-    title: "Learn, Pledge, Challenge!"
+    learn_pledge_challenge: "Learn, Pledge, Challenge!"
+    pledge: "Pledge"
   learn:
     watch_the_video: "Watch the video"
+  pledge:
+    now_make_a_pledge: "Now make a pledge..."
