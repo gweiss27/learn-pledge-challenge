@@ -15,4 +15,4 @@
 //= require turbolinks
 //= require twitter/bootstrap
 //= require_tree .
-//= require isotope.pkgd.min
+//= require isotope.pkgd
